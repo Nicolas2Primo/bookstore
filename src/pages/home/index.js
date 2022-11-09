@@ -1,9 +1,18 @@
 import React from "react";
+import {BookHomePage} from './style.js'
+
 
 export const Home = () => {
 
     return(
-        <h1>Testando Home</h1>
+        <>
+
+        <BookHomePage>
+            <div className="teste">
+                <img src="/assets/logo2.jpeg" className="icon"/>
+            </div>
+        </BookHomePage>
+        </> 
     );
 }
 
